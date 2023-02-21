@@ -9,6 +9,8 @@ weight = input("enter your weight in kg: ")
 
 BMI = int(weight) / float(height)**2
 
-# print(int(BMI))
-print("Your Body Mass Index is:  "+str(BMI))
+#The BMI value is in float type to concatinate with string we have to convert in into string type 
+BMI_as_string = str(int(BMI))
+
+print("Your Body Mass Index is:  "+BMI_as_string)
 
